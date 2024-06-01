@@ -5,6 +5,9 @@ Welcome to the Admin Dashboard repository! This is a MERN Stack project where us
 <!-- ### Video Explanation Functionalities
 https://github.com/SD007CSE/Project-Management-App/assets/88923088/21594ae3-bbcd-4b2b-83b0-fa322f419f83
 -->
+### Example of Home Page
+![image](https://github.com/Anupam-03/Admin_Dashboard/assets/116145439/6b816cde-5185-4647-9b32-60d919fc8b4d)
+![image](https://github.com/Anupam-03/Admin_Dashboard/assets/116145439/bfe15b83-c2dd-41ea-a6a9-a53e12e73c57)
 
 ## Key Features
 
@@ -34,27 +37,50 @@ https://github.com/SD007CSE/Project-Management-App/assets/88923088/21594ae3-bbcd
 - **Password Hashing**: bcrypt
 - **Programming Language**: JavaScript
 
-<!--
+
 ## Installation and Setup
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/SD007CSE/Project-Management-App.git
-   cd project-management-app
+   git clone https://github.com/Anupam-03/Admin_Dashboard.git
+   cd Admin-Dashboard-app
+   ```
+<br>
+
 2. **Add the .env file**:
 
-<!--
-- <img width="1123" alt="Screenshot 2024-05-19 at 4 58 36 PM" src="https://github.com/SD007CSE/Project-Management-App/assets/88923088/65eb43f0-f878-4540-8617-2546023e46ae">
--->
-<!--
-3. **Add the configuration file for Firebase for Database access**:
-- Add user and projects as collection.
-  <!--
-   - <img width="1170" alt="Screenshot 2024-05-19 at 5 10 36 PM" src="https://github.com/SD007CSE/Project-Management-App/assets/88923088/ea2a09d0-0448-4005-9056-67969a1a1dd4">
-   - <img width="1164" alt="Screenshot 2024-05-19 at 5 11 08 PM" src="https://github.com/SD007CSE/Project-Management-App/assets/88923088/dffb2768-c106-461a-8e84-55d4fa59faf2">
-  -->
-  <!--
+![image](https://github.com/Anupam-03/Admin_Dashboard/assets/116145439/f056ae4d-0d99-4a89-830d-5f5305eb36c6)
+
+- Add your MongoDB URL and set a JWT Secret key.
+<br>
+
+3. **Add the configuration file for MongoDB Atlas for Database access**:
+- Add users, contacts and services as collection.
+  
+   - ![image](https://github.com/Anupam-03/Admin_Dashboard/assets/116145439/582f6fa5-ddcb-42d0-867e-5cba4528ae6b)
+   - ![image](https://github.com/Anupam-03/Admin_Dashboard/assets/116145439/90b6b4d0-3dd4-4db9-aba6-2077096007bf)
+   - ![image](https://github.com/Anupam-03/Admin_Dashboard/assets/116145439/3811bc2d-1c86-413d-bdf0-8b77d062a117)
+
+  <br>
+  
 4. **Run on you local device**:
+   - you have to run server and client directory in two separate Terminal
+     <br>
+     
+   i ) Run Backend
+   
    ```bash
+   cd server
+   nodemon server.js
+   ```
+   <br>
+   ii ) Run Frontend
+   
+   ```bash
+   cd client
    npm run dev
-  -->
+   ```
+<br>
+<hr>
+<br>
+                                                                                  Thank You 😀 for Visiting this Repo 
