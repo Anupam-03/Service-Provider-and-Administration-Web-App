@@ -12,7 +12,7 @@ const app = express();
 
 // handling the cors policy
 const corsOptions = {
-    origin: "http://localhost:5173",
+    origin: "https://admin-dashboard-api-60fk.onrender.com",
     methods: "GET, POST, PUT, DELETE, PATCH, HEAD",
     credentials : true,
 }
