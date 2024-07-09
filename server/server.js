@@ -1,13 +1,14 @@
 require("dotenv").config()
 const express = require("express");
 const cors = require("cors");
-const app = express();
 const authRouter = require("./router/auth-router");
 const contactRouter = require("./router/contact-router");
 const serviceRouter = require("./router/service-router");
 const adminRoute = require("./router/admin-router");
 const connectDb = require("./utils/db");
 const errorMiddleware = require("./middleware/error-middleware");
+
+const app = express();
 
 // handling the cors policy
 const corsOptions = {
@@ -32,7 +33,7 @@ app.use("/api/admin", adminRoute);
 app.use(errorMiddleware);
 
 
-const PORT = 5000;
+const PORT = process.env.PORT || 5000;
 connectDb().then(() => {
     app.listen(PORT, () => {
         console.log(`Server is running at port no. ${PORT}`);
