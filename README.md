@@ -1,6 +1,6 @@
-# Admin_Dashboard
+# Service-Provider-and-Administration-Web-App
 
-Welcome to the Admin Dashboard repository! This is a MERN Stack project where users can log in, explore our services, and contact us to book any service. The platform provides a seamless user experience for managing service bookings, leveraging the power of MongoDB, Express, React, and Node.js to ensure a robust and responsive application.
+Welcome to the Service-Provider-and-Administration-Web-App repository! This is a MERN Stack project where users can log in, explore our services, and contact us to book any service. The platform provides a seamless user experience for managing service bookings, leveraging the power of MongoDB, Express, React, and Node.js to ensure a robust and responsive application.
 
 <!-- ### Video Explanation Functionalities
 https://github.com/SD007CSE/Project-Management-App/assets/88923088/21594ae3-bbcd-4b2b-83b0-fa322f419f83
